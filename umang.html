@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="lib/jquery.mCustomScrollbar.css"/>
+    <link rel="stylesheet" href="lib/umang.css">
+</head>
+<body>
+
+<div class="side-nav">
+    <div class="centerit">
+        <div class="active"><img src="icon/home.png" alt="" data-slide="1"></div>
+        <div><img src="icon/event.png" alt="" data-slide="2"></div>
+        <div><img src="icon/sponsor.png" alt="" data-slide="3"></div>
+    </div>
+</div>
+
+<div class="bottom-arrow">
+    <img src="img/bottom-arrow.png" alt="">
+</div>
+
+<div class="container">
+    <div class="header">
+        <div class="tr-logo">
+            <img src="img/umangw.png" alt="TECHNORITI" class="logo">
+
+        </div>
+
+
+        <div class="open-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="top-nav">
+            <a href="#">Gallery</a>
+            <a href="#">Register</a>
+            <a href="#">Login</a>
+        </div>
+    </div>
+
+    <div class="fxd-bg visible" id="fxd-bg"></div>
+    <div class="fxd-bg hidden"></div>
+
+    <div class="slide">
+
+
+        <div class="ctr-box">
+            <div class="ctr-one" data-slide="1">
+                <div class="umang-logo">
+                    <!--<img src="img/umang.png" alt="">-->
+                    UMANG is the annual cultural day of Bhagalpur College of Engineering. On this day cultural
+                    confluence with technological mindset occurs and provides enthralling delight to the soul. As we
+                    believe that technology will always remain debited towards culture for providing ethics, we put our
+                    creative skills on the forefront through fashion, dance, drama, documentary and music.
+                </div>
+
+                <div class="vid-ctr">
+                    <iframe width="400px" height="240px"
+                            src="https://www.youtube.com/embed/gyJc_XhPByw">
+                    </iframe>
+                </div>
+
+                <div class="mark-date">
+                    <img src="img/mark-date.png">
+                </div>
+            </div>
+
+            <div class="ctr-two" data-slide="2">
+                <!--<div class="desc">-->
+                <!--UMANG is the annual cultural day of Bhagalpur College of Engineering. On this day cultural-->
+                <!--confluence-->
+                <!--with technological mindset occurs and provides enthralling delight to the soul. As we believe-->
+                <!--that-->
+                <!--technology will always remain debited towards culture for providing ethics, we put our creative-->
+                <!--skills-->
+                <!--on the forefront through fashion, dance, drama, documentary and music.-->
+                <!--</div>-->
+                <div class="events-ctr">
+                    <!--<div class="title">Events</div>-->
+
+                    <div class="events-wrap">
+                        <div class="event" style="background-image: url('img/dance.png')" data-type="dance">
+                            <div>Dance</div>
+                        </div>
+                        <div class="event" style="background-image: url('img/music.png');" data-type="music">
+                            <div>Music</div>
+                        </div>
+                        <div class="event" style="background-image: url('img/drama.png')" data-type="drama">
+                            <div>Drama</div>
+                        </div>
+                        <div class="event" style="background-image: url('img/fashion.png')" data-type="fashion">
+                            <div>Fashion</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="ctr-three" data-slide="3">
+
+            </div>
+        </div>
+
+
+    </div>
+    <div id="info" class="info-ctr">
+        <a class="info-close"><img src="img/close-black.png" alt="X"></a>
+        <div class="content">
+            <h3> Umang Dance: </h3>
+
+            It is the collection of dance events, Rainbow fest dance event is the fabulous dance event, it comprises of
+            western, hip-hop,salsa,contemporary,classical,folk,b-boying and many more dance forms.
+            <br>
+            Note: -
+            <ol>
+                <li> Solo dance. Time limit- 3-5 mins.</li>
+                <li> Duet dance. Time limit- 3-8 mins.</li>
+                <li> Group dance. Time limit- 5-10 mins.</li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/html" id="dance-tpl">
+    <h3> Umang Dance: </h3>
+
+    It is the collection of dance events, Rainbow fest dance event is the fabulous dance event, it comprises of western, hip-hop,salsa,contemporary,classical,folk,b-boying and many more dance forms.
+    <br>
+    Note: -
+    <ol>
+        <li> Solo dance. Time limit- 3-5 mins.</li>
+        <li> Duet dance. Time limit- 3-8 mins.</li>
+        <li> Group dance. Time limit- 5-10 mins.</li>
+    </ol>
+</script>
+
+<script type="text/html" id="music-tpl">
+    <h3>Idol:</h3>
+    <p>Get ready to unveil the singer within you as Rainbow Fest presents RF Idol, the solo singing competition through
+        which the talented singers from across the state take a shot to fame. From folk to filmy songs, the stage is set
+        for you to mesmerize the audience and win exciting prizes.</p>
+    <p>Prelims:</p>
+    <ol>
+        <li>Participants can sing a song (in Hindi or English or both) and it can be a movie song, an album song, or
+            his/her original composition.
+        </li>
+        <li>
+            The time of performance should be at max 3 minutes.
+        </li>
+        <li>
+            Participants have to bring sound tracks in CD/pen drive and submit the tracks at the beginning of the
+            prelims.
+        </li>
+    </ol>
+    <p>Finals:</p>
+    <ol>
+        <li>
+            Participants need to perform a single song (in Hindi, English or both), the soundtrack for which they will
+            submit to the Organizing Committee prior to the event in readable CD/pen drive.
+        </li>
+        <li>
+            This is strictly a solo event and no accompanists or backing vocals are allowed.
+        </li>
+        <li>
+            Performers will be disqualified on the spot for Misconduct, Obscenity or foul language..
+        </li>
+    </ol>
+    <p> Judging Criteria </p>
+    <ul>
+        <li>
+            Quality of voice
+        </li>
+        <li>
+            Sense of scale and beat
+        </li>
+        <li>
+            Quality of rendition
+        </li>
+        <li>
+            Improvisation
+        </li>
+        <li>
+            Pronunciation of lyrics
+        </li>
+        <li>
+            Mood and expression
+        </li>
+        <li>
+            Overall impact
+        </li>
+        <p>
+            The decision of the judges and the coordinators shall be final and binding in all cases. </p>
+    </ul>
+
+    <h3> Karaoke: </h3><p>
+        This is a karaoke event.
+
+        Professionals from a karaoke singing portal will be conducting the event with the help of their karaoke
+        software.
+    </p>
+    <ol>
+        <li>
+            The music for the selected song would be provided by the organizers.
+        </li>
+        <li>Performance time will 5 minutes.</li>
+        <li>Maximum two vocalists are allowed for this event.</li>
+    </ol>
+
+    <h3> Musibuzz:</h3>
+    <p>
+        It is the most prestigious rock band competition of the groups of band of college students, the event is
+        organized by Bce Bhagalpur. Background beat i.e. music is provided by orchestra of management team of
+        college.
+    </p>
+    <p>Note:-</p>
+    <ol>
+        <li>The team size will be minimum of 3 members per team.</li>
+        <li> Maximum number of participants per team is 5.</li>
+        <li>All the essential equipments are provided by management team of college itself.</li>
+        <li> Performers can perform on the songs of famous artist or the recorded songs or self composed track.</li>
+        <li> High quality mic system and speakers are provided by management team of college.</li>
+    </ol>
+</script>
+
+
+<script type="text/html" id="drama-tpl">
+    <h3>Idol:</h3>
+    RF Drama:
+    If you think you can you can mesmerize the audience with acting, script, dialogues and sets â€“ then RF DRAMA is your call! Once the stage is set and all is ready â€“ it is show time!
+    RF DRAMA stage is the platform to express yourself with your talent. Just goes for it!
+    <br>
+    Note:-
+    <ol>
+        <li> The team size will be minimum of 5 members per team.</li>
+        <li> Language of the play can be English/Hindi.</li>
+        <li> Microphones and backstage mikes for narration, lights, and a laptop to play sounds will be provided.</li>
+        <li> The script can be original or an adaptation.</li>
+        <li> No props will be provided, however teams can use their own props.</li>
+        <li> External music is allowed.</li>
+        <li> The contestants are PROHIBITED to use vulgar words, acts and expressions within their presentation.</li>
+        <li> It is essential that a team should be composed of students from the same Institutes.</li>
+    </ol>
+</script>
+
+<script type="text/html" id="fashion-tpl">
+    <p> It is fashion that embraces and represents a culture and allows one to celebrate her heritage and origin.
+        Ethnic means that something shares the distinctive cultural traits of a group in society. It relates to a group
+        that shares a racial, national, religious, linguistic or religious heritage, regardless of whether the wearer
+        still lives in her country of origin. Ethnicity is the traditional culture of a social group.
+        When you dress to reflect your ethnicity, you are celebrating who you are and expressing your cultural roots.Â&nbsp; </p>
+    <p> Of course, you donâ€™t have to be, for example, an Eastern Indian to dress like one. Those who travel to other
+        countries often find themselves smitten with the fashion of a particular country and are eager to do it
+        themselves because it is so compelling and so very different from what they normally wear.</p>
+    <ul>
+        <li> To be a best ramp walker every aspirant must learn the basic step before going to the ramp.</li>
+        <li> Settle with any type of outfits.</li>
+        <li> Have a smooth walk and always keep watching in the bee line.</li>
+        <li> Poise yourself when you were on the ramp with high heeled footwear.</li>
+        <li> Wag your arms and shoulders but copious.</li>
+        <li> Donâ€™t lose out your level of conviction.</li>
+        <li> Able to handled your dress pattern that is support to show</li>
+    </ul>
+    <p>Note: </p>
+    <ul>
+        <li> The applicant should be a student of a BCE Bhagalpur college.</li>
+        <li> Theme for it is: ethnic ramp.</li>
+        <li> It is a solo, duet and group event.</li>
+        <li> Ramp Walk in "Professional Attires"</li>
+        <li> "Team round" where you will be placed in a team and some activity shall be done by each team.</li>
+        <li> Vulgarity in any form is strictly not permitted.</li>
+        <li> T-shaped extension will be provided on the main stage.</li>
+        <li> No props and costumes will be provided by the organizers. Teams have to bring their own costumes and props.
+            Use of materials like candles, fire, cigarettes, alcohol and any hazardous materials on stage is prohibited.
+        </li>
+    </ul>
+</script>
+
+<script src="jquery.min.js"></script>
+<script src="lib/jquery.mCustomScrollbar.js"></script>
+<script src="lib/jquery.mousewheel.js"></script>
+<script src="lib/jquery.backstretch.js"></script>
+<script src="lib/umang.js"></script>
+
+</body>
+</html>
